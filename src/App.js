@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Routes, Route, Link, Outlet,useParams} from 'r
 function App() {
   return (
     <div>
-      <h1>Want to try new shoes design? hit launch button above</h1>
+      <h1>Want to try new shoes design? hit launch button below</h1>
       
       <Router>
 <nav>
