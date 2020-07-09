@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link, Outlet,useParams} from 'react-router-dom'
-
+import Header from './Components/Header'
 
 function App() {
   return (
     <div>
+      <Header></Header>
       <h1>Want to try new shoes design? hit launch button below</h1>
       
       <Router>
