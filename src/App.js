@@ -6,14 +6,11 @@ import Header from './Components/Header'
 function App() {
   return (
     <div>
-      <Header></Header>
-      <h1>Want to try new shoes design? hit launch button below</h1>
+      
+      
       
       <Router>
-<nav>
-<Link to='/'>Home</Link> {'  '}
-<Link to='launch'>Launch</Link>
-</nav>
+      <Header></Header>
 
       <Routes>
         <Route path='/' element={<Home/>}/>
