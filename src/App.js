@@ -10,7 +10,7 @@ function App() {
       
       <Router>
 <nav>
-<Link to='/'>Home</Link>
+<Link to='/'>Home</Link> {'  '}
 <Link to='launch'>Launch</Link>
 </nav>
 
