@@ -5,7 +5,10 @@ import { BrowserRouter as Router, Routes, Route, Link, Outlet,useParams} from 'r
 
 function App() {
   return (
-    <div><Router>
+    <div>
+      <h1>Want to try new shoes design? hit launch button above</h1>
+      
+      <Router>
 <nav>
 <Link to='/'>Home</Link>
 <Link to='launch'>Launch</Link>
