@@ -31,7 +31,7 @@ export default function Header() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" className={classes.title}>
-            Waqas Shoes.
+            Pairahan...
             <Typography><span>If you want to experience exciting design click the launch button below</span></Typography>   
           <span><nav>
 <Link to='/' >Home</Link> {'  '}
