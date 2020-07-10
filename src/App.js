@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link, Outlet,useParams} from 'react-router-dom'
 import Header from './Components/Header'
-
+import ReviewCard from './Components/Body'
 function App() {
   return (
     <div>
@@ -11,6 +11,7 @@ function App() {
       
       <Router>
       <Header></Header>
+      
 
       <Routes>
         <Route path='/' element={<Home/>}/>
@@ -27,7 +28,7 @@ export default App;
 
 function Home (){
   return <div>
-    <h1>Welcome Home</h1>
+    <ReviewCard></ReviewCard>
   </div>
 }
 
@@ -47,7 +48,8 @@ function NotFound(){
 
 function LaunchIndex(){
   return <ul>
-{Object.entries(shoes).map(([slug,{name,img}])=><li key={slug}>
+{Object.entries(shoes).map(
+  ([slug,{name,img}])=><li key={slug}>
   <Link to={`/launch/${slug}`}>
   <h2>{name}</h2>
   <img src={img} alt={name} />

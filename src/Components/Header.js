@@ -27,16 +27,14 @@ export default function Header() {
     <div className={classes.root}>
       <AppBar position="static">
         <Toolbar>
-          <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
-            <MenuIcon />
-          </IconButton>
-          <Typography variant="h6" className={classes.title}>
-            Pairahan...
-            <Typography><span>If you want to experience exciting design click the launch button below</span></Typography>   
-          <span><nav>
-<Link to='/' >Home</Link> {'  '}
-<Link to='launch'>Launch</Link>
-</nav></span>
+          
+          <Typography variant="h1" className={classes.title}>
+            Pairahan...<br/>
+
+                
+            <Link className='Link' to='/' >Home</Link> {'  '}
+            <Link className='Link' to='launch'>Launch</Link>
+            
           </Typography>
           
         </Toolbar>

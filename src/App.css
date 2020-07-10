@@ -37,6 +37,7 @@
   }
 }
 
-Link {
+.Link {
   color: antiquewhite !important;
+  font-size: 20px;
 }
